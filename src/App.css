@@ -120,40 +120,18 @@ figure {
   overflow: hidden;
   position: relative;
   background:url("./headshots/IMG_5263.png");
-  background-position: 40% var(--imgPos);
+  background-position: 20% var(--imgPos);
   background-size: 130%;
   background-repeat: no-repeat;
   filter:contrast();
   transition:1s;
 }
 
-@media screen and (max-width: 1200px) {
-  .colorlib-page {
-    background-position: 20% calc(var(--imgPos)+20%);
-    background-size: 200%;
-  }
-
-  .introText {
-    color: black;
-    margin:100px 5%;
-    font-size:60px;
-    transition:1s;
-    font-family: "Quicksand", Arial, sans-serif;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .colorlib-page {
-    background-position: 30% calc(var(--imgPos)+20%);
-    background-size: 220%;
-  }
-}
-
 .accolades {
-  margin:25px;
-  width:25%;
+  margin:25px 45px;
+  width:250px;
   display:flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   flex-wrap:wrap;
 }
 
@@ -165,11 +143,33 @@ figure {
 
 .introText {
   color:white;
-  margin:100px 50px;
+  margin:10px 50px;
   font-size:60px;
+  font-weight:600;
   transition:1s;
   font-family: "Quicksand", Arial, sans-serif;
   text-shadow:1px 1px 2px black;
+}
+
+@media screen and (max-width: 1200px) {
+  .colorlib-page {
+    background-position: 20% calc(var(--imgPos)+20%);
+    background-size: 200%;
+  }
+/*
+these styles below make an awesome starting point for the animation in the beginning
+add these to the starting style of the intro text and consider getting rid of the animation for the accolades
+*/
+}
+
+@media screen and (max-width: 768px) {
+  .colorlib-page {
+    background-position: 30% calc(var(--imgPos)+20%);
+    background-size: 220%;
+  }
+  .accolades {
+    margin:25px;
+  }
 }
 
 /*
@@ -182,7 +182,7 @@ ABOUT ME
   background-color: #f2f3f7;
   position:absolute;
   top:65%;
-  padding-top:10px;
+  padding:10px 20px 0px;
 }
 
 .about-img {
@@ -288,14 +288,19 @@ ABOUT ME
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+
+  :root {
+    --sidebarPosition: translateX(-300px)
+  }
+
   @media screen and (max-width: 768px) {
+    /* TRYING CSS VARIABLES AS THE VALUE HERE, WHICH CHANGES WHEN THE MENU ICON IS CLICKED */
     #colorlib-aside {
-      width: 0px;
-      -moz-transform: translateX(-300px);
-      -webkit-transform: translateX(-300px);
-      -ms-transform: translateX(-300px);
-      -o-transform: translateX(-300px);
-      transform: translateX(-300px);
+      -moz-transform: var(--sidebarPosition));
+      -webkit-transform: var(--sidebarPosition);
+      -ms-transform: var(--sidebarPosition);
+      -o-transform: var(--sidebarPosition);
+      transform: var(--sidebarPosition);
       padding-top: 4em; }
     }
   #colorlib-aside .author-img {

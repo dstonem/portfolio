@@ -1,45 +1,35 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 
-export default class Sidebar extends Component {
-  constructor() {
-    super()
-    this.state = {
-      sidebarRevealed:false,
-      style:{
-        width:""
-      }
+export default function Sidebar() {
+    const [sidebarPosition, setSidebarPosition] = useState("translateX(-300px)")
+
+//JUST NEED TO BE ABLE TO HIDE THE SIDEBAR AGAIN!
+//be sure to include that the bar hides when the "portfolio" link is clicked
+    function revealSidebar(){
+      setSidebarPosition("translateX(0px)")
+      console.log(sidebarPosition)
     }
-
-    this.revealSidebar = this.revealSidebar.bind(this)
-  }
-
-  revealSidebar() {
-    this.setState(prevState => {
-      return {
-        sidebarRevealed: !prevState.sidebarRevealed
-      }
-    })
-
-
-  }
-
-  render() {
-    console.log(this.state.sidebarRevealed)
-    // if(this.state.sidebarRevealed == true) {
-    //   return (
-    //     this.setState({style:{width:"300px"}})
-    //   )
-    //   }
 
     return (
       <div>
-        <div>
-        <nav onClick={this.revealSidebar} href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i/></nav>
+      <style>
+            {`
+              :root {
+                --sidebarPosition: ${sidebarPosition};
+                }
+
+              .sidebar-container {
+
+              }
+            `}
+      </style>
+        <div className="sidebar-container">
+        <nav onClick={revealSidebar} href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside">
             <div className="text-center">
               <div className="author-img"></div>
               <h1 id="colorlib-logo"><a href="index.html">Dylan Stone-Miller</a></h1>
-              <span className="email"><i className="icon-mail"></i> dsmdev@gmail.com</span>
+              <span className="email"><i className="icon-mail"></i> stonemiller.dylan@gmail.com</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
@@ -69,4 +59,3 @@ export default class Sidebar extends Component {
       </div>
     )
   }
-}

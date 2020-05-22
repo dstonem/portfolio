@@ -53,10 +53,10 @@ function Main() {
 					<img style={style} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnews.gsu.edu%2Ffiles%2F2019%2F12%2F40u40-Logo.jpg&f=1&nofb=1" width="160px" />
 				</div>
 			</div>
-			<h1 className="introText" align="right" style={styleHeader}>Hi, I'm Dylan!</h1>
+			<h1 className="introText" align="right" style={styleHeader}>Hi!<br /> I'm Dylan</h1>
 			<div id="about" className="aboutMe">
 				<h3>About Me</h3>
-				<p>Nationally recognized co-founder building full-stack web applications. Looking for a software development role in a purpose-driven small- to mid-size company. </p>
+				<p>Educator and co-founder building full-stack web applications in Atlanta, Georgia - born and raised!. Looking for a software development role in a purpose-driven company. </p>
 			</div>
 			<div className="portfolioHeader">
 				<h1>Portfolio</h1>

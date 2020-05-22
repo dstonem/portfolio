@@ -1,7 +1,7 @@
 import React from "react"
 import GalleryItem from "./GalleryItem"
 
-function Gallery() {
+function TodoPlus() {
   return (
     <div>
       <div className="gallery" id="portfolio">
@@ -10,23 +10,12 @@ function Gallery() {
           imgUrl="https://i.imgur.com/2cra5TT.png"
           title="Todo+"
           caption="Task management app for creatives, developers, and self-care."
-          href="https://scrimba.com/c/c6WRnDCr"
-        />
-        <GalleryItem
-          width="500px"
-          imgUrl=""
-          caption=""
           href=""
         />
-        <GalleryItem
-          width="500px"
-          imgUrl=""
-          caption=""
-          href=""
-        />
+        <p>Description of process and purpose</p>
       </div>
     </div>
   )
 }
 
-export default Gallery
+export default TodoPlus

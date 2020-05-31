@@ -49,11 +49,13 @@ function Main() {
 
 			<div className="accoladesContainer" align="right">
 				<div className="accolades">
-					<img style={style} src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Faerospace.illinois.edu%2Fsites%2Fdefault%2Ffiles%2Fimages%2F2016_30under30_Logo_Vertical.png&f=1&nofb=1" width="80px" />
 					<img style={style} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnews.gsu.edu%2Ffiles%2F2019%2F12%2F40u40-Logo.jpg&f=1&nofb=1" width="160px" />
+					<img style={style} src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Faerospace.illinois.edu%2Fsites%2Fdefault%2Ffiles%2Fimages%2F2016_30under30_Logo_Vertical.png&f=1&nofb=1" width="80px" />
 				</div>
 			</div>
-			<h1 className="introText" align="right" style={styleHeader}>Hi!<br /> I'm Dylan</h1>
+			<div className="introText-container">
+				<h1 className="introText" align="center" style={styleHeader}>Hi!<br /> I'm Dylan</h1>
+			</div>
 			<div id="about" className="aboutMe">
 				<h3>About Me</h3>
 				<p>Educator and co-founder building full-stack web applications in Atlanta, Georgia - born and raised!. Looking for a software development role in a purpose-driven company. </p>

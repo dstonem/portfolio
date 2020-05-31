@@ -2,12 +2,19 @@ import React, { useState } from 'react'
 
 export default function Sidebar() {
     const [sidebarPosition, setSidebarPosition] = useState("translateX(-300px)")
+    const [sidebarOut, setSidebarOut] = useState(true)
 
-//JUST NEED TO BE ABLE TO HIDE THE SIDEBAR AGAIN!
-//be sure to include that the bar hides when the "portfolio" link is clicked
-    function revealSidebar(){
-      setSidebarPosition("translateX(0px)")
-      console.log(sidebarPosition)
+    function revealSidebar() {
+      setSidebarOut(!sidebarOut)
+      sidebarOut ? setSidebarPosition("translateX(0px)") : setSidebarPosition("translateX(-300px)")
+      console.log(sidebarOut)
+    }
+
+    const [activeClass, setActiveClass] = useState(false)
+    //const [classBoolean, setClassBoolean] = useState(true)
+
+    function setActive() {
+      setActiveClass(!activeClass)
     }
 
     return (
@@ -17,10 +24,6 @@ export default function Sidebar() {
               :root {
                 --sidebarPosition: ${sidebarPosition};
                 }
-
-              .sidebar-container {
-
-              }
             `}
       </style>
         <div className="sidebar-container">
@@ -29,30 +32,27 @@ export default function Sidebar() {
             <div className="text-center">
               <div className="author-img"></div>
               <h1 id="colorlib-logo"><a href="index.html">Dylan Stone-Miller</a></h1>
-              <span className="email"><i className="icon-mail"></i> stonemiller.dylan@gmail.com</span>
+              <span className="email"><a className="emailSpan" href="mailto:dstonemiller@gmail.com">dstonemiller@gmail.com</a></span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li className="active"><a href="#colorlib-main" data-nav-section="colorlib-main">Introduction</a></li>
-                  <li><a href="#portfolio" data-nav-section="portfolio">Portfolio</a></li>
+                  <li className={!activeClass ? "active" : null} onClick={setActive}><a href="#colorlib-main" data-nav-section="colorlib-main">Introduction</a></li>
+                  <li className={activeClass ? "active" : null} onClick={setActive}><a href="#portfolio" data-nav-section="portfolio">Portfolio</a></li>
                 </ul>
               </div>
             </nav>
             <nav >
               <ul id="social-media-icons">
-                <li><a href=""><img src="https://i.imgur.com/XnMhaR1.png" width="28px"/></a></li>
+                <li><a href=""><img src="https://imgur.com/y10an9a.png" width="28px"/></a></li>
                 <li><a href=""><img src="https://i.imgur.com/HItcIhU.png" width="28px"/></a></li>
-                <li><a href=""><img src="" width="28px"/></a></li>
-                <li><a href=""><img src="" width="28px"/></a></li>
+                <li><a href=""><img src="https://i.imgur.com/XnMhaR1.png" width="28px"/></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
               <p><small>
                   Made with React.js and coffee
-                  <br />
-                  Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration
-              </small></p>
+                </small></p>
             </div>
           </aside>
         </div>

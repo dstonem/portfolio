@@ -128,10 +128,10 @@ figure {
 }
 
 .accolades {
-  margin:25px 45px;
+  margin:35px 100px;
   width:250px;
   display:flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap:wrap;
 }
 
@@ -141,9 +141,16 @@ figure {
   border:1px solid black;
 }
 
+.introText-container {
+  display:block;
+  width:450px;
+  position:absolute;
+  right:0;
+}
+
 .introText {
   color:white;
-  margin:10px 50px;
+  margin:-10px 50px;
   font-size:60px;
   font-weight:600;
   transition:1s;
@@ -160,6 +167,47 @@ figure {
 these styles below make an awesome starting point for the animation in the beginning
 add these to the starting style of the intro text and consider getting rid of the animation for the accolades
 */
+  .accolades {
+    margin:35px 60px;
+    width:250px;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+  }
+
+  .introText-container {
+    display:block;
+    width:450px;
+    position:absolute;
+    right:-40px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .colorlib-page {
+    background-position: 25% calc(var(--imgPos)+20%);
+    background-size: 200%;
+  }
+/*
+these styles below make an awesome starting point for the animation in the beginning
+add these to the starting style of the intro text and consider getting rid of the animation for the accolades
+*/
+  .accolades {
+    margin:35px 40px;
+    width:250px;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+  }
+
+  .introText-container {
+    display:block;
+    width:450px;
+    position:absolute;
+    right:-60px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -168,7 +216,11 @@ add these to the starting style of the intro text and consider getting rid of th
     background-size: 220%;
   }
   .accolades {
-    margin:25px;
+    margin:25px 10px;
+  }
+
+  .introText-container {
+    right:-75px;
   }
 }
 
@@ -253,6 +305,15 @@ ABOUT ME
   transform:translateX(150px);
 }
 
+.projectIcons {
+  display:flex;
+  justify-content:flex-end;
+}
+
+.projectIcons img {
+  border:none;
+}
+
 @media screen and (max-width: 768px) {
   .galleryItem {
     transform:translateX(0px)} }
@@ -269,11 +330,20 @@ ABOUT ME
   padding:10px;
 }
 
+.caption img {
+  border-bottom:none;
+  border:0;
+}
+
 /*
 **************************************
 ///
 **************************************
 */
+
+.emailSpan {
+  color:black;
+}
 
 #colorlib-aside {
   padding-top: 1em;
@@ -402,8 +472,13 @@ ABOUT ME
     width:85%;
     display:flex;
     justify-content: center;
+    flex-direction:column;
     text-decoration:none;
     list-style: none;
+  }
+
+  #social-media-icons li {
+    margin:2px;
   }
 
   #colorlib-aside .colorlib-footer {
@@ -623,6 +698,7 @@ body.offcanvas {
   background-position: 60% 20%;
   background-repeat: no-repeat;
   position: relative;
+  top:10px;
   z-index: 9999;
 }
 

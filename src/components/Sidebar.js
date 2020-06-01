@@ -44,9 +44,9 @@ export default function Sidebar() {
             </nav>
             <nav >
               <ul id="social-media-icons">
-                <li><a href=""><img src="https://imgur.com/y10an9a.png" width="28px"/></a></li>
-                <li><a href=""><img src="https://i.imgur.com/HItcIhU.png" width="28px"/></a></li>
-                <li><a href=""><img src="https://i.imgur.com/XnMhaR1.png" width="28px"/></a></li>
+                <li><a href="https://www.linkedin.com/in/dylan-stone-miller-1541a772/"><img src="https://imgur.com/y10an9a.png" width="28px"/></a></li>
+                <li><a href="https://github.com/dstonem/"><img src="https://i.imgur.com/HItcIhU.png" width="28px"/></a></li>
+                <li><a href="https://www.facebook.com/dylan.stonemiller"><img src="https://i.imgur.com/XnMhaR1.png" width="28px"/></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">

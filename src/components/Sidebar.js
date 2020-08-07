@@ -39,19 +39,20 @@ export default function Sidebar() {
                 <ul>
                   <li className={!activeClass ? "active" : null} onClick={setActive}><a href="#colorlib-main" data-nav-section="colorlib-main">Introduction</a></li>
                   <li className={activeClass ? "active" : null} onClick={setActive}><a href="#portfolio" data-nav-section="portfolio">Portfolio</a></li>
+                  <li><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:1d3bfcbf-7cec-4984-b715-7ffa9675465d" download="StoneMiller_Resume_2020 (1).pdf">Resume</a></li>
                 </ul>
               </div>
             </nav>
             <nav >
               <ul id="social-media-icons">
-                <li><a href="https://www.linkedin.com/in/dylan-stone-miller-1541a772/"><img src="https://imgur.com/y10an9a.png" width="28px"/></a></li>
+                <li><a href="https://www.linkedin.com/in/dylan-stone-miller"><img src="https://imgur.com/y10an9a.png" width="28px"/></a></li>
                 <li><a href="https://github.com/dstonem/"><img src="https://i.imgur.com/HItcIhU.png" width="28px"/></a></li>
                 <li><a href="https://www.facebook.com/dylan.stonemiller"><img src="https://i.imgur.com/XnMhaR1.png" width="28px"/></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                  Made with React.js and coffee
+                  Made with React and coffee
                 </small></p>
             </div>
           </aside>

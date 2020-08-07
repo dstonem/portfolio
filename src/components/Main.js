@@ -58,7 +58,7 @@ function Main() {
 			</div>
 			<div id="about" className="aboutMe">
 				<h3>About Me</h3>
-				<p>Educator and co-founder building full-stack web applications in Atlanta, Georgia - born and raised!. Looking for a software development role in a purpose-driven company. </p>
+				<p>I'm a co-founder and educator turned full stack web developer. I'm passionate about social and environmental activism, and am looking for a software development role in a purpose-driven company.</p>
 			</div>
 			<div className="portfolioHeader">
 				<h1>Portfolio</h1>

@@ -3,20 +3,36 @@ import { Link, withRouter } from "react-router-dom"
 
 function GalleryItem(props) {
   const style = {
-    width: props.width
+    width: "500px"
   }
   return (
     <div className="galleryItem" style={style}>
-        <a href={props.href}><img src={props.imgUrl} width="100%"/></a>
-        <figcaption className="caption">
-          <h3>{props.title}</h3>
+      <figcaption className="caption">
+          <h3><a href={props.href}>{props.title}</a></h3>
           <p>{props.caption}</p>
-          <div className="projectIcons">
-            <img src={props.iconOne} width="25px"/>
-            <img src={props.iconTwo} width="25px"/>
-            <img src={props.iconThree} width="25px"/>
-          </div>
-        </figcaption>
+      </figcaption>
+        <div className="gallery-image-container">
+          <img src={props.imgUrl} width="100%"/>
+        </div>
+        <div className="gallery-item-description">
+          <h3>Inspiration</h3>
+          <p>{props.descInspiration}</p>
+          <h3>Roles</h3>
+          <ul>
+            <li>{props.role1}</li>
+            <li>{props.role2}</li>
+            <li>{props.role3}</li>
+            <li>{props.role4}</li>
+            <li>{props.role5}</li>
+            <li>{props.role6}</li>
+          </ul>
+          <h3>Technologies Used</h3>
+          <p>{props.techUsed}</p>
+        </div>
+        <div className="demo">
+            <p><a href={props.demo}>Demo</a></p>
+            <p><a href={props.github}>Github</a></p>
+        </div>
     </div>
   )
 }

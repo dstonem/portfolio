@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Sidebar from './components/Sidebar'
 import Main from './components/Main'
-import Introduction from './components/Introduction'
+import Skills from './components/Skills'
 import Timeline from './components/Timeline'
 import Gallery from './components/Gallery'
 import TodoPlus from './components/TodoPlus'
@@ -14,6 +14,7 @@ function App() {
 
       <Sidebar />
 	    <Main />
+      <Skills />
 	    <Gallery />
     </div>
   );

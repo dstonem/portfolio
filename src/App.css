@@ -38,10 +38,10 @@
 }
 
 
-@font-face {
+/* @font-face {
   font-family: 'arial';
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal; } */
 
 /* =======================================================
 *
@@ -528,7 +528,7 @@ ABOUT ME
   @media screen and (max-width: 768px) {
     /* TRYING CSS VARIABLES AS THE VALUE HERE, WHICH CHANGES WHEN THE MENU ICON IS CLICKED */
     #colorlib-aside {
-      -moz-transform: var(--sidebarPosition));
+      -moz-transform: var(--sidebarPosition);
       -webkit-transform: var(--sidebarPosition);
       -ms-transform: var(--sidebarPosition);
       -o-transform: var(--sidebarPosition);

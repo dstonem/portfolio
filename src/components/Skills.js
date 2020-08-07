@@ -8,55 +8,55 @@ function Skills() {
         </div>
         <div className="skills">
             <div className="skill-div">
-                <img src="/react_icon.png" />
+                <img src="/react_icon.png" alt="tech icon"/>
                 <p>React</p>
             </div>
             <div className="skill-div">
-                <img src="/node_icon2.png" id="node_icon"/>
+                <img src="/node_icon2.png" id="node_icon"alt="tech icon"/>
                 <p>Node.js</p>
             </div>
             <div className="skill-div">
-                <img src="/postgresql_icon3.png" />
+                <img src="/postgresql_icon3.png" alt="tech icon"/>
                 <p>SQL</p>
             </div>
             <div className="skill-div">
-                <img src="/aws_icon2.png" />
+                <img src="/aws_icon2.png" alt="tech icon"/>
                 <p>AWS</p>
             </div>
             <div className="skill-div">
-                <img src="/express_icon3.png" id="express_icon"/>
+                <img src="/express_icon3.png" id="express_icon"alt="tech icon"/>
                 <p>Express</p>
             </div>
             <div className="skill-div">
-                <img src="/python_icon2.png" />
+                <img src="/python_icon2.png" alt="tech icon"/>
                 <p>Python</p>
             </div>
             <div className="skill-div">
-                <img src="/js_icon.png" />
+                <img src="/js_icon.png" alt="tech icon"/>
                 <p>JavaScript</p>
             </div>
             <div className="skill-div">
-                <img src="/jquery_icon.jpg" />
+                <img src="/jquery_icon.jpg" alt="tech icon"/>
                 <p>jQuery</p>
             </div>
             <div className="skill-div">
-                <img src="/css_icon.png" />
+                <img src="/css_icon.png" alt="tech icon"/>
                 <p>CSS</p>
             </div>
             <div className="skill-div">
-                <img src="/bootstrap_icon.png" />
+                <img src="/bootstrap_icon.png" alt="tech icon"/>
                 <p>Bootstrap</p>
             </div>
             <div className="skill-div">
-                <img src="/html_icon.png" />
+                <img src="/html_icon.png" alt="tech icon"/>
                 <p>HTML5</p>
             </div>
             <div className="skill-div">
-                <img src="/ubuntu_icon.png" />
+                <img src="/ubuntu_icon.png" alt="tech icon"/>
                 <p>Ubuntu</p>
             </div>
             <div className="skill-div">
-                <img src="/figma_icon.png" />
+                <img src="/figma_icon.png" alt="tech icon"/>
                 <p>Figma</p>
             </div>
         </div>

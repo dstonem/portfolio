@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, withRouter } from "react-router-dom"
 
 function GalleryItem(props) {
   const style = {
@@ -12,7 +11,7 @@ function GalleryItem(props) {
           <p>{props.caption}</p>
       </figcaption>
         <div className="gallery-image-container">
-          <img src={props.imgUrl} width="100%"/>
+          <img src={props.imgUrl} width="100%" alt="app screenshot" />
         </div>
         <div className="gallery-item-description">
           <h3>Inspiration</h3>

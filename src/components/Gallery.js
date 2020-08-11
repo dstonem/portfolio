@@ -6,7 +6,7 @@ function Gallery() {
     <div>   
       <div className="gallery" id="portfolio">
         <GalleryItem
-          imgUrl="/actapp_screenshot.png"
+          imgUrl="actapp_screenshot.png"
           title="actapp"
           href="http://ec2-3-21-76-255.us-east-2.compute.amazonaws.com:4321/"
           caption="Social media platform for activists"
@@ -25,7 +25,7 @@ function Gallery() {
           title="Goveri Prototype/Usability Testing Tool"
           caption="Frontend prototype of actapp"
           href="https://dstonem.github.io/goveri_prototype_usability_test_tool/"
-          imgUrl="/goveri_screenshot.png"
+          imgUrl="goveri_screenshot.png"
           descInspiration="Usability testing is an incredibly time consuming part of user experience (UX) research, so with this project I asked the big question, 'How might we automate this later stage of UX research?' and built an app prototype with an attached form to retrieve usability feedback asynchronously."
           role1="Led three-person remote team through agile development of an app prototype"
           role2="Constructed majority of frontend programming logic and API calls"

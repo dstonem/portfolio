@@ -330,16 +330,18 @@ ABOUT ME
 }
 
 .galleryItem {
-  width:250px;
+  min-width:450px;
   box-shadow: 1px 1px 2px grey;
   margin:10%;
   transition:0.5s;
   transform:translateX(150px);
+  white-space: pre-line;
   /* display:inline-block; */
 }
 
 .gallery-image-container {
   min-height:465px;
+  min-width:400px;
   overflow: hidden;
 }
 
@@ -374,6 +376,7 @@ ABOUT ME
   padding:10px;
   background:#fff;
   z-index:-1;
+  white-space: pre-line;
 }
 
 .gallery-item-description ul li {
@@ -389,7 +392,7 @@ ABOUT ME
     width:100%;
     height:100%;
     position:absolute;
-    top:1440px;
+    top:1540px;
     transform: translateX(0);
     padding-left: 0px;
     display:block;
@@ -399,7 +402,8 @@ ABOUT ME
 
   .galleryItem {
     transform:translateX(0px);
-    max-width:375px;
+    min-width:100%;
+    max-width:100%;
     margin:10% 0;
   } 
 

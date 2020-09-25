@@ -43,8 +43,8 @@ function Gallery() {
           />
           <GalleryItem
             imgUrl="actapp_screenshot.png"
-            title="actapp"
-            href="http://ec2-3-21-76-255.us-east-2.compute.amazonaws.com:4321/"
+            title="actapp 0.1"
+            href="http://ec2-3-128-140-207.us-east-2.compute.amazonaws.com:4321/login"
             caption="Social media platform for activists"
             descInspiration="Accountability, data, and sustained engagement are what's necessary to shift our culture to one of social, environmental, and political activism. This MVP aims to put everything the user needs to be an active citizen in one place."
             role1="Led three-person remote team through agile app development"

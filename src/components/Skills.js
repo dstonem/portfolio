@@ -8,8 +8,20 @@ function Skills() {
         </div>
         <div className="skills">
             <div className="skill-div">
+                <img src="react_native_icon.png" alt="tech icon"/>
+                <p>React Native</p>
+            </div>
+            <div className="skill-div">
                 <img src="react_icon.png" alt="tech icon"/>
                 <p>React</p>
+            </div>
+            <div className="skill-div">
+                <img src="redux_icon.png" alt="tech icon"/>
+                <p>Redux</p>
+            </div>
+            <div className="skill-div">
+                <img src="expo_icon.png" alt="tech icon"/>
+                <p>Expo</p>
             </div>
             <div className="skill-div">
                 <img src="node_icon2.png" id="node_icon"alt="tech icon"/>
@@ -58,6 +70,10 @@ function Skills() {
             <div className="skill-div">
                 <img src="figma_icon.png" alt="tech icon"/>
                 <p>Figma</p>
+            </div>
+            <div className="skill-div">
+                <img src="jwt_icon.png" alt="tech icon"/>
+                <p>JWT</p>
             </div>
         </div>
     </div>

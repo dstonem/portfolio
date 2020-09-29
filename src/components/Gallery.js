@@ -73,7 +73,7 @@ function Gallery() {
             title="actapp.us"
             href="https://actapp.us"
             caption="A coordinated social activism experience with curated resources"
-            descInspiration="Putting together everything we learned in the Digital Crafts Immersive Bootcamp program and more, our team iterated on ."
+            descInspiration="Putting together everything we learned in the Digital Crafts Immersive Bootcamp program and more, our team transformed and updated actapp, adding functionality and scalability in new languages."
             role1="Led two-person remote team through two week project"
             role2="Implemented Redux state management system and React Native architecture using Expo"
             role3="Developed most of the functionality for Login, Register, Action, ActionsResources, Search, Menu, and Navbar components"

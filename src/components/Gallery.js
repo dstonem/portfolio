@@ -42,7 +42,7 @@ function Gallery() {
             github="https://github.com/dstonem/goveri_prototype_usability_test_tool"
           />
           <GalleryItem
-            imgUrl="actapp_screenshot.png"
+            imgUrl="actapp_screenshot0.png"
             title="actapp 0.1"
             href="http://ec2-3-128-140-207.us-east-2.compute.amazonaws.com:4321/login"
             caption="Social media platform for activists"
@@ -58,19 +58,30 @@ function Gallery() {
             github="https://github.com/dstonem/actapp_MVP"
           />
           <GalleryItem
-            imgUrl="actapp_screenshot.png"
+            imgUrl="actapp_protest_screenshot.png"
             title="actapp protest"
             href="https://actapp.us"
-            caption="Social media platform for activists"
-            descInspiration="Accountability, data, and sustained engagement are what's necessary to shift our culture to one of social, environmental, and political activism. This MVP aims to put everything the user needs to be an active citizen in one place."
-            role1="Led three-person remote team through agile app development"
-            role2="Conducted user experience research to inform design and functionality of app"
-            role3="Built backend architecture"
-            role4="Designed database structure and queries"
-            role5="Created wireframes and designed majority of responsive user interface"
-            role6="Deployed using Amazon Web Services"
-            techUsed="Node.js, Express, PostgreSQL, HTML, CSS, JavaScript, Git, GitHub, Ubuntu, AWS"
-            demo="http://ec2-3-21-76-255.us-east-2.compute.amazonaws.com:4321/login"
+            caption="Eventbrite for protests"
+            descInspiration="I wanted to build a tool that would support organizing and capturing data from protests, and promoting followup action after protests."
+            role1="Solo project built in one week"
+            techUsed="React, Node.js, Express, Passport, PostgreSQL, HTML, CSS, JavaScript, Git, GitHub, Ubuntu, AWS"
+            demo=""
+            github="https://github.com/dstonem/actapp_protest"
+          />
+          <GalleryItem
+            imgUrl="actapp_screenshot.png"
+            title="actapp.us"
+            href="https://actapp.us"
+            caption="A coordinated social activism experience with curated resources"
+            descInspiration="Putting together everything we learned in the Digital Crafts Immersive Bootcamp program and more, our team iterated on ."
+            role1="Led two-person remote team through two week project"
+            role2="Implemented Redux state management system and React Native architecture using Expo"
+            role3="Developed most of the functionality for Login, Register, Action, ActionsResources, Search, Menu, and Navbar components"
+            role4="Built backend architecture and implemented authentication using JavaScript Web tokens"
+            role5="Designed user interface in React Native StyleSheets responsive to any device"
+            role6="Deployed securely using Amazon Web Services"
+            techUsed="React, React Native, Redux, Expo, Node.js, Express, PostgreSQL, JavaScript Web Tokens, JavaScript, Git, GitHub, Ubuntu, AWS"
+            demo="https://actapp.us"
             github="https://github.com/dstonem/actapp_MVP"
           />
         </div>

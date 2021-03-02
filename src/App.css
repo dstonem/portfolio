@@ -327,10 +327,13 @@ ABOUT ME
   white-space: nowrap; 
   /* transform:translateX(300px); */
   padding-left: 300px;
+  padding-right: 300px;
 }
 
 .galleryItem {
   min-width:450px;
+  height:700px;
+  overflow:scroll;
   box-shadow: 1px 1px 2px grey;
   margin:10%;
   transition:0.5s;
@@ -352,7 +355,8 @@ ABOUT ME
 .demo {
   display:flex;
   justify-content: center;
-
+  position: relative;
+  bottom:-100px;
 }
 
 .demo p {
@@ -402,7 +406,7 @@ ABOUT ME
 
   .galleryItem {
     transform:translateX(0px);
-    min-width:100%;
+    min-width:100vw;
     max-width:100%;
     margin:10% 0;
   } 
@@ -437,6 +441,13 @@ ABOUT ME
   .gallery-item-description {
     padding-top:40px;
     padding-bottom:-30px;
+  }
+
+  .demo {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    bottom:0px;
   }
 }
 

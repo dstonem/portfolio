@@ -8,7 +8,7 @@ function Skills() {
         </div>
         <div className="skills">
             <div className="skill-div">
-                <img src="react_native_icon.png" alt="tech icon"/>
+                <img src="react_native_icon2.jpg" alt="tech icon"/>
                 <p>React Native</p>
             </div>
             <div className="skill-div">
@@ -16,7 +16,7 @@ function Skills() {
                 <p>React</p>
             </div>
             <div className="skill-div">
-                <img src="redux_icon.png" alt="tech icon"/>
+                <img src="redux.png" alt="tech icon"/>
                 <p>Redux</p>
             </div>
             <div className="skill-div">
@@ -74,6 +74,14 @@ function Skills() {
             <div className="skill-div">
                 <img src="jwt_icon.png" alt="tech icon"/>
                 <p>JWT</p>
+            </div>
+            <div className="skill-div">
+                <img src="websocket.png" alt="tech icon"/>
+                <p>Websockets</p>
+            </div>
+            <div className="skill-div">
+                <img src="graphql.png" alt="tech icon"/>
+                <p>GraphQL</p>
             </div>
         </div>
     </div>

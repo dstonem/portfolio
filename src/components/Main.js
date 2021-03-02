@@ -50,7 +50,7 @@ function Main() {
 			<div className="accoladesContainer" align="right">
 				<div className="accolades">
 					<img style={style} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnews.gsu.edu%2Ffiles%2F2019%2F12%2F40u40-Logo.jpg&f=1&nofb=1" width="160px" alt="GSU 40 Under 40" />
-					<img style={style} src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Faerospace.illinois.edu%2Fsites%2Fdefault%2Ffiles%2Fimages%2F2016_30under30_Logo_Vertical.png&f=1&nofb=1" width="80px" alt="Forbes 30 Under 30"/>
+					<img style={style} src="forbes.png" width="160px" alt="Forbes 30 Under 30"/>
 				</div>
 			</div>
 			<div className="introText-container">

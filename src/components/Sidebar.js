@@ -39,7 +39,7 @@ export default function Sidebar() {
                 <ul>
                   <li className={!activeClass ? "active" : null} onClick={setActive}><a href="#colorlib-main" data-nav-section="colorlib-main">Introduction</a></li>
                   <li className={activeClass ? "active" : null} onClick={setActive}><a href="#portfolio" data-nav-section="portfolio">Portfolio</a></li>
-                  <li><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:1d3bfcbf-7cec-4984-b715-7ffa9675465d" download="StoneMiller_Resume_2020 (1).pdf">Resume</a></li>
+                  <li><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:a046bc7e-e387-4089-ad95-4ebb69160389" download="StoneMiller_Resume_2021.pdf">Resume</a></li>
                 </ul>
               </div>
             </nav>

@@ -286,6 +286,19 @@ ABOUT ME
   width: 80px;
 }
 
+.tech-div {
+  display:flex;
+  flex-direction: column;
+  align-items: space-around;
+  margin:5px 5px;
+  font-size:12px;
+}
+
+.tech-icon {
+  height: 30px;
+  width: 30px;
+}
+
 @media screen and (max-width:768px){
   .skills-container {
     width:100%;
@@ -361,6 +374,10 @@ ABOUT ME
 
 .demo p {
   margin:10px;
+}
+
+.gallery-image-container {
+  background-color:none;
 }
 
 .galleryItem img:hover {

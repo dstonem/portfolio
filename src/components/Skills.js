@@ -1,93 +1,101 @@
 import React from "react"
 
-function Skills() {
+function Skills({skills}) {
   return (
     <div className="skills-container">
         <div className="skills-header">
             <h2>Skills</h2>
         </div>
         <div className="skills">
+            {skills.map(tech => (
             <div className="skill-div">
-                <img src="react_native_icon2.jpg" alt="tech icon"/>
+                <img src={`${tech}.png`} alt="tech icon"/>
+                <p>{tech}</p>
+            </div>
+            ))}
+        </div>
+        {/* <div className="skills">
+            <div className="skill-div">
+                <img src="React Native.jpg" alt="tech icon"/>
                 <p>React Native</p>
             </div>
             <div className="skill-div">
-                <img src="react_icon.png" alt="tech icon"/>
+                <img src="React.png" alt="tech icon"/>
                 <p>React</p>
             </div>
             <div className="skill-div">
-                <img src="redux.png" alt="tech icon"/>
+                <img src="Redux.png" alt="tech icon"/>
                 <p>Redux</p>
             </div>
             <div className="skill-div">
-                <img src="expo_icon.png" alt="tech icon"/>
+                <img src="Expo.png" alt="tech icon"/>
                 <p>Expo</p>
             </div>
             <div className="skill-div">
-                <img src="node_icon2.png" id="node_icon"alt="tech icon"/>
-                <p>Node.js</p>
+                <img src="Node.png" id="node_icon"alt="tech icon"/>
+                <p>Node</p>
             </div>
             <div className="skill-div">
-                <img src="postgresql_icon3.png" alt="tech icon"/>
-                <p>SQL</p>
+                <img src="PostgreSQL.png" alt="tech icon"/>
+                <p>PostgreSQL</p>
             </div>
             <div className="skill-div">
-                <img src="aws_icon2.png" alt="tech icon"/>
+                <img src="AWS.png" alt="tech icon"/>
                 <p>AWS</p>
             </div>
             <div className="skill-div">
-                <img src="express_icon3.png" id="express_icon"alt="tech icon"/>
+                <img src="Express.png" id="express_icon"alt="tech icon"/>
                 <p>Express</p>
             </div>
             <div className="skill-div">
-                <img src="python_icon2.png" alt="tech icon"/>
+                <img src="Python.png" alt="tech icon"/>
                 <p>Python</p>
             </div>
             <div className="skill-div">
-                <img src="js_icon.png" alt="tech icon"/>
+                <img src="JavaScript.png" alt="tech icon"/>
                 <p>JavaScript</p>
             </div>
             <div className="skill-div">
-                <img src="jquery_icon.jpg" alt="tech icon"/>
+                <img src="jQuery.png" alt="tech icon"/>
                 <p>jQuery</p>
             </div>
             <div className="skill-div">
-                <img src="css_icon.png" alt="tech icon"/>
+                <img src="CSS.png" alt="tech icon"/>
                 <p>CSS</p>
             </div>
             <div className="skill-div">
-                <img src="bootstrap_icon.png" alt="tech icon"/>
+                <img src="Bootstrap.png" alt="tech icon"/>
                 <p>Bootstrap</p>
             </div>
             <div className="skill-div">
-                <img src="html_icon.png" alt="tech icon"/>
-                <p>HTML5</p>
+                <img src="HTML.png" alt="tech icon"/>
+                <p>HTML</p>
             </div>
             <div className="skill-div">
-                <img src="ubuntu_icon.png" alt="tech icon"/>
+                <img src="Ubuntu.png" alt="tech icon"/>
                 <p>Ubuntu</p>
             </div>
             <div className="skill-div">
-                <img src="figma_icon.png" alt="tech icon"/>
+                <img src="Figma.png" alt="tech icon"/>
                 <p>Figma</p>
             </div>
             <div className="skill-div">
-                <img src="jwt_icon.png" alt="tech icon"/>
+                <img src="JWT.png" alt="tech icon"/>
                 <p>JWT</p>
             </div>
             <div className="skill-div">
-                <img src="websocket.png" alt="tech icon"/>
+                <img src="Websockets.png" alt="tech icon"/>
                 <p>Websockets</p>
             </div>
             <div className="skill-div">
-                <img src="graphql.png" alt="tech icon"/>
+                <img src="GraphQL.png" alt="tech icon"/>
                 <p>GraphQL</p>
             </div>
             <div className="skill-div">
-                <img src="electron.png" alt="tech icon"/>
+                <img src="Electron.png" alt="tech icon"/>
                 <p>Electron</p>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

@@ -11,7 +11,30 @@ function App() {
 
       <Sidebar />
 	    <Main />
-      <Skills />
+      <Skills 
+        skills={[
+          'React Native',
+          'React',
+          'Redux',
+          'Expo',
+          'Node',
+          'PostgreSQL',
+          'AWS',
+          'Express',
+          'Python',
+          'JavaScript',
+          'jQuery',
+          'CSS',
+          'Bootstrap',
+          'HTML',
+          'Ubuntu',
+          'Figma',
+          'JWT',
+          'Websockets',
+          'GraphQL',
+          'Electron'
+        ]}
+      />
 	    <Gallery />
     </div>
   );

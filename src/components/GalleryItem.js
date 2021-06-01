@@ -10,7 +10,7 @@ function GalleryItem(props) {
           <h3><a href={props.href}>{props.title}</a></h3>
           <p>{props.caption}</p>
       </figcaption>
-        <div className="gallery-image-container">
+        <div className="gallery-image-container" style={{backgrounColor:'white'}}>
           <img src={props.imgUrl} width="100%" alt="app screenshot" />
         </div>
         <div className="gallery-item-description">

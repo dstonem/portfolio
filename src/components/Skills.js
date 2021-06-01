@@ -83,6 +83,10 @@ function Skills() {
                 <img src="graphql.png" alt="tech icon"/>
                 <p>GraphQL</p>
             </div>
+            <div className="skill-div">
+                <img src="electron.png" alt="tech icon"/>
+                <p>Electron</p>
+            </div>
         </div>
     </div>
   )

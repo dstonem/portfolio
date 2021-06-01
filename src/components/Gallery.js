@@ -6,15 +6,27 @@ function Gallery() {
     <div>   
       <div className="gallery" id="portfolio">
           <GalleryItem
+            imgUrl="plottr.png"
+            title="Plottr"
+            href="https://plottr.com/"
+            caption="Plan Your Books the Way You Think"
+            descInspiration="Writing has been a passion of mine since middle school, and I gained deeper insight into redux and visual UI development while metacognating about my writing!"
+            role1="Managed release of first public beta of new Act Structure feature, responding to user feedback and augmenting UI accordingly"
+            role2="Added features and functionality"
+            techUsed="React, Redux, Electron, JavaScript, Sass"
+            demo="https://plottr.com/"
+            github="https://github.com/dstonem"
+          />
+          <GalleryItem
             imgUrl="bonvi_icon.png"
             title="bonvi"
             href="https://bonvi.app/"
             caption="Meet New People. Discover New Places. Connect with Your City."
             descInspiration="A promising startup with a unique UI, bonvi is aligned with my mission to develop mobile apps that connect people."
-            role1="Leading backend architecture development, including sharded database structure, lookup cache tables for optimal load times, and authentication using secure refresh tokens"
+            role1="Leading backend architecture development, including autoscaling server systems, sharded databases, and authentication using secure refresh tokens"
             role2="Building scalable frontend features including a business portal for managing payments and a websocket-powered live chat feature"
             role3="Managing two-person internal team, interfacing and strategizing with CEO and external development team"
-            techUsed="React, React Native, Redux-Saga, Expo, Node.js, Express, PostgreSQL, Websockets, JSON Web Tokens, JavaScript, GraphQL"
+            techUsed="React, React Native, Redux-Saga, Expo, Node.js, Express, PostgreSQL, Websockets, JSON Web Tokens, JavaScript, GraphQL, AWS"
             demo="https://bonvi.app/"
             github="https://github.com/dstonem"
           />
